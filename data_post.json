@@ -1,0 +1,140 @@
+{
+  "body-json": {
+    "emp_no": 80000,
+    "email": "80000@cloud-spartan.com",
+    "first_name": "Odoardo",
+    "last_name": "Ranft",
+    "birth_date": "1963-06-23",
+    "gender": "F",
+    "hire_date": "1994-07-03",
+    "salaries": [
+      {
+        "salary": 40000,
+        "from_date": "1994-07-03",
+        "to_date": "1995-07-03"
+      },
+      {
+        "salary": 41003,
+        "from_date": "1995-07-03",
+        "to_date": "1996-07-02"
+      },
+      {
+        "salary": 41720,
+        "from_date": "1996-07-02",
+        "to_date": "1997-07-02"
+      },
+      {
+        "salary": 44005,
+        "from_date": "1997-07-02",
+        "to_date": "1998-07-02"
+      },
+      {
+        "salary": 45659,
+        "from_date": "1998-07-02",
+        "to_date": "1999-07-02"
+      },
+      {
+        "salary": 46077,
+        "from_date": "1999-07-02",
+        "to_date": "2000-07-01"
+      },
+      {
+        "salary": 48065,
+        "from_date": "2000-07-01",
+        "to_date": "2001-07-01"
+      },
+      {
+        "salary": 49474,
+        "from_date": "2001-07-01",
+        "to_date": "2002-07-01"
+      },
+      {
+        "salary": 50059,
+        "from_date": "2002-07-01",
+        "to_date": "9999-01-01"
+      }
+    ],
+    "departments": [
+      {
+        "dept_no": "d005",
+        "dept_name": "Development",
+        "from_date": "1994-07-03",
+        "to_date": "9999-01-01",
+        "dept_manager": [
+          {
+            "emp_no": 110511,
+            "first_name": "DeForest",
+            "last_name": "Hagimont",
+            "email": "110511@cloud-spartan.com",
+            "from_date": "1985-01-01",
+            "to_date": "1992-04-25"
+          },
+          {
+            "emp_no": 110567,
+            "first_name": "Leon",
+            "last_name": "DasSarma",
+            "email": "110567@cloud-spartan.com",
+            "from_date": "1992-04-25",
+            "to_date": "9999-01-01"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "title": "Engineer",
+        "from_date": "1994-07-03",
+        "to_date": "2000-07-02"
+      },
+      {
+        "title": "Senior Engineer",
+        "from_date": "2000-07-02",
+        "to_date": "9999-01-01"
+      }
+    ]
+  },
+  "params": {
+    "path": {},
+    "querystring": {},
+    "header": {
+      "Accept": "application/json, text/plain, */*",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Desktop-Viewer": "true",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "CloudFront-Is-SmartTV-Viewer": "false",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Viewer-Country": "US",
+      "Content-Type": "application/json;charset=utf-8",
+      "Host": "395vlfbu09.execute-api.us-west-2.amazonaws.com",
+      "User-Agent": "axios/0.18.0",
+      "Via": "1.1 f88ade6c78faa40dd05dac030acdcf9d.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "p4J_rAsCGmY84An2hBnp2FHBjDd7SqdlXaAuGtMKdti73xireiW4HQ==",
+      "X-Amzn-Trace-Id": "Root=1-5caa9334-b9282e6623e1b6f82a6cc330",
+      "x-api-key": "7sXek0nDyI80DbEMCaJm87r4dI57jUxD2OtDEuuc",
+      "X-Forwarded-For": "73.241.65.92, 70.132.18.69",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    }
+  },
+  "stage-variables": {},
+  "context": {
+    "account-id": "",
+    "api-id": "395vlfbu09",
+    "api-key": "7sXek0nDyI80DbEMCaJm87r4dI57jUxD2OtDEuuc",
+    "authorizer-principal-id": "",
+    "caller": "",
+    "cognito-authentication-provider": "",
+    "cognito-authentication-type": "",
+    "cognito-identity-id": "",
+    "cognito-identity-pool-id": "",
+    "http-method": "POST",
+    "stage": "staging",
+    "source-ip": "73.241.65.92",
+    "user": "",
+    "user-agent": "axios/0.18.0",
+    "user-arn": "",
+    "request-id": "c2516799-5993-11e9-a6ce-a73062a3e9a4",
+    "resource-id": "hmhxqj",
+    "resource-path": "/employees/get-employee-by-email"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+                <ul class="nav navbar-nav">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About us</a></li>
+                    <li class="active"><a href="/data_email">Data by Email<span class="sr-only">(current)</span></a></li>    
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="container">
+            <h3>Employee Data Search</h3>
+            <label for="email">Enter the employee's cloud-spartan.com email</label></br>
+
+            <form action="data_email" method="POST">
+                <input type="text" id="email" name="email" value="">
+                <input type="submit" value="search">
+            </form>
+
+            <div class ="employee-data">
+                <p>Employee Name: {{first_name}} {{last_name}}</p>
+                <p>Job Title: {{title}}</p>
+                <p>Department: {{department}}</p>
+                <p>Employee Number: {{emp_no}}</p>
+                <p>Employee Email: {{email}}</p>
+                <p>Birth Date: {{birth_date}}</p>
+                <p>Gender: {{gender}}</p>
+                <p>Hire Date: {{hire_date}}</p>
+            </div>
+
+            <form action="data_email" method="POST">
+                <input type="submit" id="update" name="update" value="Edit Info">
+            </form>
+            <div class="update-form"></div>
+
+            <form action="data_email" method="POST">
+                <input type="submit" id="delete" name="delete" value="Delete">
+            </form>
+
+        </div><!-- container -->
+    </div>
+</body>
+</html>    

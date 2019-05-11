@@ -1,0 +1,24 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "front design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sangwon Song",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^2.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "express-ip": "^1.0.3",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.4",
+    "jsdom": "^14.1.0",
+    "multer": "^1.4.1"
+  }
+}
