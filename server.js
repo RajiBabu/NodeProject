@@ -16,7 +16,7 @@ const oidc = new ExpressOIDC({
   client_secret: '083E5kQ-H_Atvk91dn6RRovDWmMlR236p3ghFj1y',
   redirect_uri: 'https://cmpe282-frontend.rajibabu.me:3000/authorization-code/callback',
   scope: 'openid profile',
-  appBaseUrl: 'http://cmpe282-frontend.rajibabu.me:3000'
+  appBaseUrl: 'https://cmpe282-frontend.rajibabu.me:3000'
 });
 app.use(session({
   secret: 'this should be secure',
