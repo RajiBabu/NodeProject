@@ -12,11 +12,11 @@ const { ExpressOIDC } = require('@okta/oidc-middleware');
 //const app = express();
 const oidc = new ExpressOIDC({
   issuer: 'https://dev-695807.okta.com/oauth2/default',
-  client_id: '0oafp9qcg2C4f5ZuQ356',
-  client_secret: 'ETbQ7Ev9eBKKXaoRttGqW8hJhP1NvbPbiR2aaRiR',
-  redirect_uri: 'http://http://ec2-54-218-85-92.us-west-2.compute.amazonaws.com:3000/authorization-code/callback',
+  client_id: '0oakv9m29BUK7fb5P356',
+  client_secret: '083E5kQ-H_Atvk91dn6RRovDWmMlR236p3ghFj1y',
+  redirect_uri: 'https://cmpe282-frontend.rajibabu.me:3000/authorization-code/callback',
   scope: 'openid profile',
-  appBaseUrl: 'http://ec2-54-218-85-92.us-west-2.compute.amazonaws.com:3000'
+  appBaseUrl: 'http://cmpe282-frontend.rajibabu.me:3000'
 });
 app.use(session({
   secret: 'this should be secure',
