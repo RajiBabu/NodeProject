@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var jsdom = require('jsdom');
 const {JSDOM} = jsdom;
 
-//okta
+//okta project
 const session = require('express-session');
 //const express = require('express');
 const { ExpressOIDC } = require('@okta/oidc-middleware');
