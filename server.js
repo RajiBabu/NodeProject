@@ -40,7 +40,7 @@ var url = 'https://395vlfbu09.execute-api.us-west-2.amazonaws.com/staging/employ
 var url_post = 'https://395vlfbu09.execute-api.us-west-2.amazonaws.com/staging/employees/get-employee-by-email';
 //var post_data = {email: "80000@cloud-spartan.com"}; //should be user input
 var post_config = {headers: {'x-api-key': '7sXek0nDyI80DbEMCaJm87r4dI57jUxD2OtDEuuc'}};
-/////////
+///////////
 /*var result = axios.get(url,{headers: config});
 var result_post = axios.post(url_post, post_data, post_config);*/
 var json_result;
